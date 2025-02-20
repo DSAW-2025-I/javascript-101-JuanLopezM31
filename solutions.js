@@ -1,11 +1,15 @@
 // Sum of Two Numbers
 function sum(a, b) {
-  // Add your code here
+  return a + b;
 }
 
 // Factorial of a Number
 function factorial(n) {
-  // Add your code here
+  if( n ==0 || n == 1){
+    return 1;
+  }else{
+    return n * factorial(n-1);
+  }
 }
 
 // Find the Largest Number
